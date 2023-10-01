@@ -78,12 +78,12 @@ pLnode init_LList(void) {
 	pLnode pLast = p;//创建一个结点，作为尾结点，初始状态为头结点
 
 	printf("请输入需要创建的链表结点数：");
-	scanf_s("%d", &cnt);
+	scanf("%d", &cnt);
 
 	for (i = 0; i < cnt; i++) {
 
 		printf("请输入第%d个结点储存的数：", i + 1);
-		scanf_s("%d", &temp);
+		scanf("%d", &temp);
 
 		//printf("a ");
 
